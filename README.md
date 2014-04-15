@@ -17,7 +17,8 @@ How to run
 
 `main_hist.cpp` is c++ program that reads in the text file information to build a face database and then compares incoming faces to the database. It's basically copied from an OpenCV tutorial I found somewhere on the Internet, but is probably way less efficient.
 
-FAQ:
+FAQ
+---
 
 **Why didn't you just write the whole thing in Python?**
 

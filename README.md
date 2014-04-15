@@ -30,7 +30,7 @@ Err... Probably for a lot of reasons.
 
 **Why is it so innacurate?**
 
-Well, it's only using a video feed when all the modern approaches use many different inputs with feature tracking (for example see [cob_people_detection](http://wiki.ros.org/cob_people_detection)) and it isn't using any of the [probabilistic improvements you can find here](http://vismod.media.mit.edu/pub/facereco/papers/TR-443.pdf).
+Well, it's only using a video feed when all the modern approaches use many different inputs with feature tracking (for example, see [cob_people_detection](http://wiki.ros.org/cob_people_detection) or if you want video-only check out [pi_face_tracker](http://wiki.ros.org/pi_face_tracker)) and it isn't using any of the [probabilistic improvements you can find here](http://vismod.media.mit.edu/pub/facereco/papers/TR-443.pdf).
 
 **Did you do Edge Detection too?**
 

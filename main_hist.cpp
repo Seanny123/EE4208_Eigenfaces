@@ -29,8 +29,6 @@ IplImage* get_camera_frame(CvCapture* &camera)
 	return frame;
 }
 
-// We could change it to retuning indexes and do the thresholding outside to avoid the segmentation fault?
-
 // NCC classifier
 // Where x is the value to compare, m is the points to compare and names is the labels of the points, max_thresh is the maximum threhold
 // Returns the label of the point with the nearest center

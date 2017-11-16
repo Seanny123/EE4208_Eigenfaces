@@ -30,8 +30,11 @@ Err... Probably for a lot of reasons.
 
 **Why is it so innacurate?**
 
-Well, it's only using a video feed when all the modern approaches use many different inputs with feature tracking (for example, see [cob_people_detection](http://wiki.ros.org/cob_people_detection) or if you want video-only check out [pi_face_tracker](http://wiki.ros.org/pi_face_tracker)) and it isn't using any of the [probabilistic improvements you can find here](http://vismod.media.mit.edu/pub/facereco/papers/TR-443.pdf).
+This is an old-school implementation of face-recognition. These days, everyone uses Convolutional Neural Networks. But I wrote this back in 2014, before Deep Learning had become mainstream for anything other than image recognition.
 
 **Did you do Edge Detection too?**
 
-Yep! Check out my gists for tons of Python code! Most importantly, how to load those freaking weird `.raw` files.
+Yep!
+
+- [Gaussian Edge Detector](https://gist.github.com/Seanny123/10452462), as well as [plotting the Laplacian of Gaussian Mask](https://gist.github.com/Seanny123/10452919)
+- [Canny Edge Detector](https://gist.github.com/Seanny123/10538465)
